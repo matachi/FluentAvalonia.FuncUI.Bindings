@@ -1,12 +1,13 @@
 namespace FluentAvalonia.FuncUI.Bindings
 
+open System.Collections
+open Avalonia.FuncUI.Builder
+open Avalonia.FuncUI.DSL
+open Avalonia.FuncUI.Types
+open FluentAvalonia.UI.Controls
+
 [<AutoOpen>]
 module NavigationView =
-    open System.Collections
-    open Avalonia.FuncUI.Builder
-    open Avalonia.FuncUI.DSL
-    open Avalonia.FuncUI.Types
-    open FluentAvalonia.UI.Controls
 
     let create (attrs: IAttr<NavigationView> list) : IView<NavigationView> =
         ViewBuilder.Create<NavigationView>(attrs)
