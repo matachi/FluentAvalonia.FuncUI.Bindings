@@ -36,6 +36,7 @@ type MainWindow() =
 
     do
         base.Title <- "Sample app"
+        base.Icon <- WindowIcon(System.IO.Path.Combine("Assets", "Logo64.png"))
         base.Content <- Main.view
 
 type App() =

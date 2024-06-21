@@ -10,6 +10,10 @@
     <ItemGroup>
         <Compile Include="App.fs" />
         <Compile Include="Program.fs" />
+        <Content Include="..\Assets\Logo64.png">
+          <Link>Assets\Logo64.png</Link>
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
     </ItemGroup>
 
     <ItemGroup>
