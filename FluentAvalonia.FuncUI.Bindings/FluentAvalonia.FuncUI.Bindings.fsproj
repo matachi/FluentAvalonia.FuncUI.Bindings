@@ -5,10 +5,11 @@
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <PackageId>FluentAvalonia.FuncUI.Bindings</PackageId>
         <Version>0.0.1</Version>
-        <Authors>matachi</Authors>
+        <Authors>Daniel Jonsson</Authors>
         <Company>Kalyna Solutions AB</Company>
         <PackageDescription> FluentAvalonia.FuncUI.Bindings is a library that integrates FluentAvalonia with Avalonia.FuncUI. It contains bindings that enable the use of FluentAvalonia's controls in an F# context offered by Avalonia.FuncUI.</PackageDescription>
         <RepositoryUrl>https://github.com/matachi/FluentAvalonia.FuncUI.Bindings</RepositoryUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
     </PropertyGroup>
 
     <ItemGroup>
