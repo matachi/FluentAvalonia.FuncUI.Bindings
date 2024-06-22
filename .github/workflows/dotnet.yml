@@ -25,4 +25,4 @@ jobs:
     - name: Pack
       run: dotnet pack FluentAvalonia.FuncUI.Bindings --configuration Release
     - name: NuGet push
-      run: dotnet nuget push "*.nupkg" --api-key ${{ secrets.NUGET_KEY }} --source https://api.nuget.org/v3/index.json
+      run: dotnet nuget push FluentAvalonia.FuncUI.Bindings/bin/Release/FluentAvalonia.FuncUI.Bindings.*.nupkg --api-key ${{ secrets.NUGET_KEY }} --source https://api.nuget.org/v3/index.json
