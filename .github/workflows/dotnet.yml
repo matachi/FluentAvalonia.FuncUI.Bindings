@@ -23,6 +23,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Pack
-      run: dotnet pack --configuration Release
+      run: dotnet pack FluentAvalonia.FuncUI.Bindings --configuration Release
     - name: NuGet push
       run: dotnet nuget push "*.nupkg" --api-key ${{ secrets.NUGET_KEY }} --source https://api.nuget.org/v3/index.json
