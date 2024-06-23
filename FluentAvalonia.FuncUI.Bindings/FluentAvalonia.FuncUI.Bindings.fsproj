@@ -13,7 +13,6 @@
         <RepositoryUrl>https://github.com/matachi/FluentAvalonia.FuncUI.Bindings</RepositoryUrl>
         <PackageProjectUrl>https://github.com/matachi/FluentAvalonia.FuncUI.Bindings</PackageProjectUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageLicenseUrl>https://github.com/matachi/FluentAvalonia.FuncUI.Bindings/blob/main/LICENSE</PackageLicenseUrl>
         <PackageTags>avalonia avaloniaui fluentavalonia funcui bindings gui ui</PackageTags>
         <PackageIcon>Logo128.png</PackageIcon>
     </PropertyGroup>
