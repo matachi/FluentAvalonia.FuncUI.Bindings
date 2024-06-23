@@ -10,6 +10,7 @@
         <PackageDescription> FluentAvalonia.FuncUI.Bindings is a library that integrates FluentAvalonia with Avalonia.FuncUI. It contains bindings that enable the use of FluentAvalonia's controls in an F# context offered by Avalonia.FuncUI.</PackageDescription>
         <RepositoryUrl>https://github.com/matachi/FluentAvalonia.FuncUI.Bindings</RepositoryUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageTags>avalonia avaloniaui fluentavalonia funcui bindings gui ui</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
