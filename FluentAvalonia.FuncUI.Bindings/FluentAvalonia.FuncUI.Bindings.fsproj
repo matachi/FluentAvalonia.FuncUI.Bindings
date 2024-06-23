@@ -4,15 +4,18 @@
         <TargetFramework>net8.0</TargetFramework>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <PackageId>FluentAvalonia.FuncUI.Bindings</PackageId>
-        <Version>0.0.2</Version>
+        <Version>0.0.3</Version>
         <Authors>Daniel Jonsson</Authors>
         <Company>Kalyna Solutions AB</Company>
         <Copyright>Copyright (c) 2024 Daniel Jonsson</Copyright>
-        <PackageDescription>FluentAvalonia.FuncUI.Bindings is a library that integrates FluentAvalonia with Avalonia.FuncUI. It contains bindings that enable the use of FluentAvalonia's controls in an F# context offered by Avalonia.FuncUI.</PackageDescription>
+        <Title>FluentAvalonia.FuncUI.Bindings</Title>
+        <Description>FluentAvalonia.FuncUI.Bindings is a library that integrates FluentAvalonia with Avalonia.FuncUI. It contains bindings that enable the use of FluentAvalonia's controls in an F# context offered by Avalonia.FuncUI.</Description>
         <RepositoryUrl>https://github.com/matachi/FluentAvalonia.FuncUI.Bindings</RepositoryUrl>
         <PackageProjectUrl>https://github.com/matachi/FluentAvalonia.FuncUI.Bindings</PackageProjectUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageLicenseUrl>https://github.com/matachi/FluentAvalonia.FuncUI.Bindings/blob/main/LICENSE</PackageLicenseUrl>
         <PackageTags>avalonia avaloniaui fluentavalonia funcui bindings gui ui</PackageTags>
+        <PackageIcon>Logo128.png</PackageIcon>
     </PropertyGroup>
 
     <ItemGroup>
@@ -22,6 +25,14 @@
     <ItemGroup>
       <PackageReference Include="Avalonia.FuncUI" Version="1.4.0" />
       <PackageReference Include="FluentAvaloniaUI" Version="2.0.5" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="..\Assets\Logo128.png">
+        <Pack>True</Pack>
+        <PackagePath />
+        <Link>Logo128.png</Link>
+      </None>
     </ItemGroup>
 
 </Project>
